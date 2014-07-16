@@ -29,14 +29,6 @@ printIndexFiles := OUTPUT(file.getPrimaryIndexFiles(),NAMED('IndexFiles'));
 
 SEQUENTIAL(del,create,s1,s2,s3,printData,printIndexFiles);
 
-//SEQUENTIAL(del,create,s1,printData,printIndexFiles);
-/*
-create;
-s1;
-s2;
-s3;
-*/
-//del;
 
 
 
