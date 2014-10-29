@@ -1,4 +1,7 @@
 /* 
+
+Deploy this query under the name "testroxiequery"
+
 Run this once after executing GenRoxieData_BWR.ecl to see the query output before package map is used (to
 update the superkey used by this query).
 
