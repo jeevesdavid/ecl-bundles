@@ -1,3 +1,17 @@
+/*
+
+ If you wish to update the superkey used by a roxie query using package maps, first a dummy or mock version 
+ 
+ of the superkey has to be created. The query should then be published manually. After this we can deploy package maps whenever
+ 
+ we wish to update the superkey.
+ 
+ In this file we do just that. We create a super key with "some" value
+ 
+ */
+ 
+
+
 IMPORT RollingFileBundle;
 
 IMPORT Std;
