@@ -58,6 +58,7 @@ CreateDummySFAct := SEQUENTIAL(createSF,clearSF,dummyLF,indexLF,addSF );
 SEQUENTIAL(del,create,s1,s2,s3,
 CreateDummySFAct);
 
+//Data written to "file" here shold be visible in the query only after the package map is deployed.
 SEQUENTIAL(s4);
 
 //CreateDummySFAct;
