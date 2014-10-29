@@ -4,6 +4,8 @@ update the superkey used by this query).
 
 Next run this after executing DeployRoxieData_BWR.ecl to see new data being added using package maps.
 
+Note: Deploy this query under the name "testroxiequery"
+
 */
 
 IMPORT RollingFileBundle;
